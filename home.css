@@ -1,0 +1,11 @@
+:root {
+  --bs-primary: #00425a;
+  --bs-secondary: #fc7300;
+  --bs-third: #dadada;
+  --bs-background: #f9f9f9;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #ececec;
+}
