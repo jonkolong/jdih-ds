@@ -3,9 +3,16 @@
   --bs-secondary: #fc7300;
   --bs-third: #dadada;
   --bs-background: #f9f9f9;
+  --bs-background-2: #ececec;
+  --bs-backup-primary: #0d6efd;
+  --bs-backup-secondary: #6c757d;
 }
 
 body {
   font-family: "Poppins", sans-serif;
-  background: #ececec;
+  background: var(--bs-background-2);
 }
+
+/* .gbr-layanan {
+  height: 600px;
+} */
