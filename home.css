@@ -9,10 +9,6 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Open Sans", sans-serif;
   background: var(--bs-background-2);
 }
-
-/* .gbr-layanan {
-  height: 600px;
-} */
