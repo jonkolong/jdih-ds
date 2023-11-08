@@ -1,7 +1,10 @@
 :root {
   --bs-primary: #00425a;
+  --bs-primary-shadow: #022836;
   --bs-secondary: #6c757d;
+  --bs-secondary-shadow: #4c4e50;
   --bs-light: #fc7300;
+  --bs-light-shadow: #c25700;
   --bs-background: #ececec;
 }
 
@@ -40,12 +43,49 @@ body {
 }
 
 .login-btn {
+  height: 2.5rem;
+  border-radius: 8px;
+  color: white;
   background-color: var(--bs-primary);
+  box-shadow: 0 4px 0 var(--bs-primary-shadow);
   border: none;
 }
 
 .login-btn:hover {
+  color: white;
   background-color: var(--bs-light);
+  box-shadow: 0 4px 0 var(--bs-light-shadow);
+  border: none;
+}
+
+.login-btn:active {
+  color: white;
+  background-color: var(--bs-light);
+  box-shadow: none;
+  transform: translateY(4px);
+  border: none;
+}
+
+.logoG {
+  height: 2.5rem;
+  border-radius: 8px;
+  background-color: var(--bs-background);
+  box-shadow: 0 4px 0 #b1b1b1;
+  border: none;
+}
+
+.logoG:hover {
+  color: white;
+  background-color: var(--bs-light);
+  box-shadow: 0 4px 0 var(--bs-light-shadow);
+  border: none;
+}
+
+.logoG:active {
+  color: white;
+  background-color: var(--bs-light);
+  box-shadow: none;
+  transform: translateY(4px);
   border: none;
 }
 
