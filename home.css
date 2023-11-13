@@ -12,3 +12,12 @@ body {
   font-family: "Open Sans", sans-serif;
   background: var(--bs-background-2);
 }
+
+.page-link {
+  color: var(--bs-primary);
+}
+
+.page-link:active {
+  background-color: var(--bs-secondary);
+  color: var(--bs-secondary);
+}
