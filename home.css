@@ -21,3 +21,8 @@ body {
   background-color: var(--bs-secondary);
   color: var(--bs-secondary);
 }
+
+h5:hover {
+  color: var(--bs-primary);
+  transition: 0.3s;
+}

@@ -52,6 +52,7 @@ body {
   background-color: var(--bs-light);
   box-shadow: 0 4px 0 var(--bs-light-shadow);
   border: none;
+  transition: 200ms;
 }
 
 .login-btn:active {
@@ -75,6 +76,7 @@ body {
   background-color: var(--bs-light);
   box-shadow: 0 4px 0 var(--bs-light-shadow);
   border: none;
+  transition: 200ms;
 }
 
 .logoG:active {
