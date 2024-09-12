@@ -9,6 +9,10 @@
   --bs-backup-secondary: #6c757d;
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   background: var(--bs-background-2);
