@@ -105,6 +105,10 @@ body {
   background: var(--bs-background-2);
 }
 
+nav .navbar-brand {
+  height: 30px;
+}
+
 nav ul li {
   margin: 4px;
 }
