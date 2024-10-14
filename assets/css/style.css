@@ -20,7 +20,7 @@
   /* color 1 */
   --bs-kominfo: #012970;
   --bs-utama: #012970;
-  --bs-utama-gelap: #001232;
+  --bs-utama-gelap: #002769;
   --bs-utama-terang: #4154f1;
   --bs-ungu: #717ff5;
   --bs-kelabu: #444444;
@@ -103,6 +103,28 @@ ul {list-style: none;}
 
 body {
   background: var(--bs-background-2);
+}
+
+nav ul li {
+  margin: 4px;
+}
+
+nav ul li .active {
+  font-weight: 500;
+  color: var(--bs-jdih) !important;
+  background: var(--bs-third);
+  border-radius: 5px;
+  transition: all 200ms ease;
+}
+
+nav ul li a:hover {
+  color: var(--bs-background) !important;
+  background: var(--bs-utama-gelap);
+  border-radius: 5px;
+}
+
+.text-bg-primary {
+  background-color: var(--bs-utama-gelap) !important;
 }
 
 .page-link {
