@@ -38,6 +38,14 @@
   --bs-backup-primary: #0d6efd;
   --bs-backup-secondary: #6c757d;
 
+  /* icon bg color */
+  --bs-icon-1: #B7E0FF;
+  --bs-icon-2: #4affba;
+  --bs-icon-3: #ffa67a;
+  --bs-icon-4: #fff36d;
+  --bs-icon-5: #F95454;
+  --bs-icon-6: #7E60BF;
+
   /* Fonts */
   --fo-googlesans: "Google Sans", sans-serif;
   --fo-opensans: "Open Sans", sans-serif;
@@ -165,14 +173,41 @@ h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover {
   border-radius: 40px;
 }
 
-.menu-bar {
+/* .menu-bar {
   border-radius: 20px;
-  background: rgba(255, 255, 255, .5);
+  background: rgba(202, 202, 202, 0.5);
   bottom: 0;
+  backdrop-filter: blur(5px);
+} */
+
+.navbar-mini {
+  background: rgba(200, 200, 200, 0.5);
   backdrop-filter: blur(5px);
 }
 
-.menu-icon {
+.navbar-mini .icon-set {
+  transition: all 200ms ease;
+  font-weight: 600;
+}
+
+.navbar-mini .home {
+  color: var(--bs-utama-gelap);
+  background-color: var(--bs-icon-1);
+}
+.navbar-mini .terbaru {
+  color: var(--bs-primary-shadow);
+  background-color: var(--bs-icon-2);
+}
+.navbar-mini .jdihn {
+  color: var(--bs-primary-shadow);
+  background-color: var(--bs-icon-3);
+}
+.navbar-mini .lainnya {
+  color: var(--bs-primary-shadow);
+  background-color: var(--bs-icon-4);
+}
+
+/* .menu-icon {
   width: 80px;
   height: 80px;
   transition: all 200ms ease;
@@ -199,6 +234,10 @@ h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover {
 
 .menu-icon label {
   font-size: clamp(12px, 1vw + 2px, 14px);
+} */
+
+.icon-text {
+  font-size: clamp(10px, 1vw + 1px, 12px);
 }
 
 .modal-content {

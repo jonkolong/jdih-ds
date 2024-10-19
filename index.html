@@ -44,98 +44,95 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav m-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" href="#"><i class="bi bi-house me-1"></i>Beranda</a>
+            <a class="nav-link active" href="#"><i class="fa-solid fa-home me-1"></i>Beranda</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="profil.html"><i class="bi bi-person-badge me-1"></i>Profil</a>
+            <a class="nav-link" href="profil.html"><i class="fa-solid fa-id-badge me-1"></i>Profil</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="bantuan-hukum.html"><i class="bi bi-info-circle me-1"></i>Bantuan Hukum</a>
+            <a class="nav-link" href="bantuan-hukum.html"><i class="fa-solid fa-scale-balanced me-1"></i>Bantuan Hukum</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://jdihn.go.id/" target="_blank"><i class="bi bi-globe2 me-1"></i>JDIHN</a>
+            <a class="nav-link" href="https://jdihn.go.id/" target="_blank"><i class="fa-solid fa-globe me-1"></i>JDIHN</a>
           </li>
         </ul>
       </div>
-      <a href="login.html" class="btn btn-jdih"><i class="bi bi-box-arrow-in-right me-1"></i>Login</a>
+      <a href="login.html" class="btn btn-jdih"><i class="fa-solid fa-arrow-right-to-bracket me-1"></i>Login</a>
     </div>
   </nav>
   <!-- Navbar End -->
 
-  <!-- Navbar Bottom Start -->
-  <nav class="navbar navbar-mobile fixed-bottom d-lg-none">
-    <div class="container">
-      <div class="menu-bar card border-0 shadow-sm pt-2 pe-4 w-100">
-        <ul class="menu-list text-center d-flex justify-content-around align-content-center">
-          <li class="menu-icon home">
-            <a href="#">
-              <div class="card bg-transparent border-0">
-                <i class="bi bi-house fs-3"></i>
-                <label for="">Beranda</label>
-              </div>
-            </a>
-          </li>
-          <li class="menu-icon terbaru">
-            <a href="terbaru.html">
-              <div class="card bg-transparent border-0">
-                <i class="bi bi-journal-arrow-up fs-3"></i>
-                <label for="">Terbaru</label>
-              </div>
-            </a>
-          </li>
-          <li class="menu-icon jdihn">
-            <a href="https://jdihn.go.id/">
-              <div class="card bg-transparent border-0">
-                <i class="bi bi-globe2 fs-3"></i>
-                <label for="">JDIHN</label>
-              </div>
-            </a>
-          </li>
-          <li class="menu-icon lainnya">
-            <a href="" data-bs-toggle="modal" data-bs-target="#lainnyaModal">
-              <div class="card bg-transparent border-0">
-                <i class="bi bi-three-dots fs-3"></i>
-                <label for="">Lainnya</label>
-              </div>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <!-- Navbar Bottom End -->
+  <!-- Navbar Mini Start -->
+  <div class="container navbar-mini card border-0 rounded-4 fixed-bottom mb-3 w-100">
+      <ul class="d-flex justify-content-around align-items-center me-4">
+        <li class="mt-3 text-center">
+          <a href="#">
+            <div class="icon-set home card align-items-center justify-content-center border-0 rounded-4" style="height: 60px;width: 60px;">
+              <i class="icon-logo fa-solid fa-house fs-3 p-3 pb-0"></i>
+              <label class="icon-text p-2 pt-0" for="">Beranda</label>
+            </div>
+          </a>
+        </li>
+        <li class="mt-3 text-center">
+          <a href="terbaru.html">
+            <div class="icon-set terbaru card align-items-center justify-content-center border-0 rounded-4" style="height: 60px;width: 60px;">
+              <i class="icon-logo fa-solid fa-file-arrow-up fs-3 p-3 pb-0"></i>
+              <label class="icon-text p-2 pt-0" for="">Terbaru</label>
+            </div>
+          </a>
+        </li>
+        <li class="mt-3 text-center">
+          <a href="https://jdihn.go.id/" target="_blank">
+            <div class="icon-set jdihn card align-items-center justify-content-center border-0 rounded-4" style="height: 60px;width: 60px;">
+              <i class="icon-logo fa-solid fa-globe fs-3 p-3 pb-0"></i>
+              <label class="icon-text p-2 pt-0" for="">JDIHN</label>
+            </div>
+          </a>
+        </li>
+        <li class="mt-3 text-center">
+          <a href="" data-bs-toggle="modal" data-bs-target="#lainnyaModal">
+            <div class="icon-set lainnya card align-items-center justify-content-center border-0 rounded-4" style="height: 60px;width: 60px;">
+              <i class="icon-logo fa-solid fa-ellipsis fs-3 p-3 pb-0"></i>
+              <label class="icon-text p-2 pt-0" for="">Lainnya</label>
+            </div>
+          </a>
+        </li>
+      </ul>
+  </div>
+  <!-- Navbar Mini End -->
 
   <!-- lainnya Modal start -->
   <div class="modal modal-sm fade" id="lainnyaModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered ">
+    <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content pt-4">
-        <ul class="menu-list text-center d-flex justify-content-around align-content-center pe-5">
-          <li class="menu-icon mx-4">
-            <a href="https://jdihn.go.id/">
-              <div class="card bg-transparent border-0">
-                <i class="bi bi-person-badge fs-3"></i>
-                <label for="">Profil</label>
+        <p class="text-center fw-semibold">Menu Lainnya</p>
+        <ul class="d-flex justify-content-around align-items-center me-4">
+          <li class="mt-3 text-center">
+            <a href="#">
+              <div class="icon-set profil card align-items-center justify-content-center border-0 rounded-4 bg-danger-subtle text-danger-emphasis" style="height: 60px;width: 60px;">
+                <i class="icon-logo fa-solid fa-id-badge fs-3 p-3 pb-0"></i>
+                <label class="icon-text p-2 pt-0" for="">Profil</label>
               </div>
             </a>
           </li>
-          <li class="menu-icon">
+          <li class="mt-3 text-center">
             <a href="bantuanhukum.html">
-              <div class="card bg-transparent border-0">
-                <i class="bi bi-person-raised-hand fs-3"></i>
-                <label for="">Bantuan Hukum</label>
+              <div class="icon-set bantuan-hukum card align-items-center justify-content-center border-0 rounded-4 bg-primary-subtle text-primary-emphasis" style="height: 60px;width: 60px;">
+                <i class="icon-logo fa-solid fa-scale-balanced fs-3 p-3 pb-0"></i>
+                <label class="icon-text p-2 pt-0" for="">Bantuan Hukum</label>
               </div>
             </a>
           </li>
-          <li class="menu-icon">
+          <li class="mt-3 text-center">
             <a href="faq.html">
-              <div class="card bg-transparent border-0">
-                <i class="bi bi-info-circle fs-3"></i>
-                <label for="">FAQ</label>
+              <div class="icon-set home card align-items-center justify-content-center border-0 rounded-4 bg-warning-subtle text-warning-emphasis" style="height: 60px;width: 60px;">
+                <i class="icon-logo fa-solid fa-circle-question fs-3 p-3 pb-0"></i>
+                <label class="icon-text p-2 pt-0" for="">FAQ</label>
               </div>
             </a>
           </li>
         </ul>
-        <a href="login.html" type="button" class="m-3 btn btn-jdih"><i class="bi bi-box-arrow-in-right me-1"></i>Login</a>
+        <a href="login.html" type="button" class="m-3 btn btn-jdih"><i class="fa-solid fa-arrow-right-to-bracket me-1"></i>Login</a>
       </div>
     </div>
   </div>
