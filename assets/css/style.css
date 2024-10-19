@@ -173,12 +173,6 @@ h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover {
   border-radius: 40px;
 }
 
-/* .menu-bar {
-  border-radius: 20px;
-  background: rgba(202, 202, 202, 0.5);
-  bottom: 0;
-  backdrop-filter: blur(5px);
-} */
 
 .navbar-mini {
   background: rgba(200, 200, 200, 0.5);
@@ -206,35 +200,6 @@ h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover {
   color: var(--bs-primary-shadow);
   background-color: var(--bs-icon-4);
 }
-
-/* .menu-icon {
-  width: 80px;
-  height: 80px;
-  transition: all 200ms ease;
-  border-radius: 20px;
-  padding-top: 10px;
-  font-weight: 600;
-}
-
-.menu-icon i {
-  color: var(--bs-utama-gelap);
-}
-
-.menu-icon label {
-  color: var(--bs-utama-gelap);
-}
-
-.menu-icon:hover {
-  background: rgba(255, 255, 255, .3) ;
-}
-
-.menu-icon:active {
-  background: rgba(255, 255, 255, .3) ;
-}
-
-.menu-icon label {
-  font-size: clamp(12px, 1vw + 2px, 14px);
-} */
 
 .icon-text {
   font-size: clamp(10px, 1vw + 1px, 12px);
