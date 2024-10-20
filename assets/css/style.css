@@ -173,47 +173,6 @@ h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover {
   border-radius: 40px;
 }
 
-/* Mobile Navbar */
-/* .navbar-mini {
-  background: rgba(200, 200, 200, 0.5);
-  backdrop-filter: blur(5px);
-}
-
-.navbar-mini .icon-set {
-  width: 60px;
-  height: 60px;
-  transition: all 200ms ease;
-  font-weight: 600;
-}
-
-.navbar-mini .home {
-  color: var(--bs-primary-shadow);
-  background-color: var(--bs-icon-1);
-}
-
-.navbar-mini .terbaru {
-  color: var(--bs-primary-shadow);
-  background-color: var(--bs-icon-2);
-}
-.navbar-mini .jdihn {
-  color: var(--bs-primary-shadow);
-  background-color: var(--bs-icon-3);
-}
-.navbar-mini .lainnya {
-  color: var(--bs-primary-shadow);
-  background-color: var(--bs-icon-4);
-}
-
-.icon-text {
-  font-size: clamp(10px, 1vw + 1px, 12px);
-} */
-
-.modal-content {
-  border-radius: 20px;
-  background: rgba(255, 255, 255, .8) !important;
-  backdrop-filter: blur(5px);
-}
-
 /* Mobile navbar */
 .mobile-bar {
   height: 80px;
@@ -260,6 +219,18 @@ h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover {
 .icon-set label {
   font-size: clamp(10px, 1vw + 1px, 12px);
   font-weight: 600;
+}
+
+.modal-content {
+  border-radius: 20px;
+  background: rgba(255, 255, 255, .8) !important;
+  backdrop-filter: blur(5px);
+}
+
+/* Dokumen hukum */
+.dokumen-hukum p {
+  font-size: clamp(12px, 1vw + 2px, 16px);
+  font-weight: 500;
 }
 
 /* Left box */
