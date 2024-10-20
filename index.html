@@ -63,7 +63,7 @@
   <!-- Navbar End -->
 
   <!-- Mobile Navbar Start -->
-  <nav class="navbar-mini-container row fixed-bottom my-3 mx-2 py-3 px-2 d-md-none">
+  <!-- <nav class="navbar-mini-container row fixed-bottom my-3 mx-2 py-3 px-2 d-md-none">
     <div class="navbar-mini col rounded-4">
       <ul class="d-flex justify-content-around align-items-center me-4">
         <li class="mt-3 text-center">
@@ -100,8 +100,47 @@
         </li>
       </ul>
     </div>
-  </nav>
+  </nav> -->
   <!-- Mobile Navbar End -->
+
+  <!-- Mobile Navbar Bottom start -->
+  <nav class="mobile-navbar navbar-expand fixed-bottom container">
+    <ul class="mobile-bar">
+      <li class="icon-card">
+        <a href="#">
+          <div class="icon-set home card">
+            <i class="icon-logo fa-solid fa-house"></i>
+            <label for="">Beranda</label>
+          </div>
+        </a>
+      </li>
+      <li class="icon-card">
+        <a href="terbaru.html">
+          <div class="icon-set terbaru card">
+            <i class="icon-logo fa-solid fa-file-arrow-up"></i>
+            <label for="">Terbaru</label>
+          </div>
+        </a>
+      </li>
+      <li class="icon-card">
+        <a href="https://jdihn.go.id/" target="_blank">
+          <div class="icon-set jdihn card">
+            <i class="icon-logo fa-solid fa-globe"></i>
+            <label for="">JDIHN</label>
+          </div>
+        </a>
+      </li>
+      <li class="icon-card">
+        <a href="" data-bs-toggle="modal" data-bs-target="#lainnyaModal">
+          <div class="icon-set lainnya card">
+            <i class="icon-logo fa-solid fa-ellipsis"></i>
+            <label for="">Lainnya</label>
+          </div>
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <!-- Mobile Navbar Bottom end -->
 
   <!-- lainnya Modal start -->
   <div class="modal modal-sm fade" id="lainnyaModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -109,27 +148,27 @@
       <div class="modal-content pt-4">
         <p class="text-center fw-semibold">Menu Lainnya</p>
         <ul class="d-flex justify-content-around align-items-center me-4">
-          <li class="mt-3 text-center">
-            <a href="#">
-              <div class="icon-set profil card align-items-center justify-content-center border-0 rounded-4 bg-danger-subtle text-danger-emphasis" style="height: 60px;width: 60px;">
-                <i class="icon-logo fa-solid fa-id-badge fs-3 p-3 pb-0"></i>
-                <label class="icon-text p-2 pt-0" for="">Profil</label>
+          <li class="icon-card text-center">
+            <a href="profil.html">
+              <div class="icon-set profil card bg-danger-subtle text-danger-emphasis">
+                <i class="icon-logo fa-solid fa-id-badge"></i>
+                <label for="">Profil</label>
               </div>
             </a>
           </li>
-          <li class="mt-3 text-center">
+          <li class="icon-card text-center">
             <a href="bantuanhukum.html">
-              <div class="icon-set bantuan-hukum card align-items-center justify-content-center border-0 rounded-4 bg-primary-subtle text-primary-emphasis" style="height: 60px;width: 60px;">
-                <i class="icon-logo fa-solid fa-scale-balanced fs-3 p-3 pb-0"></i>
-                <label class="icon-text p-2 pt-0" for="">Bantuan Hukum</label>
+              <div class="icon-set bantuan-hukum card bg-primary-subtle text-primary-emphasis">
+                <i class="icon-logo fa-solid fa-scale-balanced"></i>
+                <label for="">Bantuan Hukum</label>
               </div>
             </a>
           </li>
-          <li class="mt-3 text-center">
+          <li class="icon-card text-center">
             <a href="faq.html">
-              <div class="icon-set home card align-items-center justify-content-center border-0 rounded-4 bg-warning-subtle text-warning-emphasis" style="height: 60px;width: 60px;">
-                <i class="icon-logo fa-solid fa-circle-question fs-3 p-3 pb-0"></i>
-                <label class="icon-text p-2 pt-0" for="">FAQ</label>
+              <div class="icon-set faq card bg-warning-subtle text-warning-emphasis">
+                <i class="icon-logo fa-solid fa-circle-question"></i>
+                <label for="">FAQ</label>
               </div>
             </a>
           </li>

@@ -174,7 +174,7 @@ h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover {
 }
 
 /* Mobile Navbar */
-.navbar-mini {
+/* .navbar-mini {
   background: rgba(200, 200, 200, 0.5);
   backdrop-filter: blur(5px);
 }
@@ -206,12 +206,60 @@ h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover {
 
 .icon-text {
   font-size: clamp(10px, 1vw + 1px, 12px);
-}
+} */
 
 .modal-content {
   border-radius: 20px;
   background: rgba(255, 255, 255, .8) !important;
   backdrop-filter: blur(5px);
+}
+
+/* Mobile navbar */
+.mobile-bar {
+  height: 80px;
+  display: flex;
+  border-radius: 20px;
+  background: rgba(200, 200, 200, 0.5);
+  backdrop-filter: blur(5px);
+  justify-content: space-around;
+  align-items: center;
+  padding-right: 35px;
+}
+
+.icon-card .home {
+  color: var(--bs-primary-shadow);
+  background-color: var(--bs-icon-1);
+}
+
+.icon-card .terbaru {
+  color: var(--bs-primary-shadow);
+  background-color: var(--bs-icon-2);
+}
+.icon-card .jdihn {
+  color: var(--bs-primary-shadow);
+  background-color: var(--bs-icon-3);
+}
+.icon-card .lainnya {
+  color: var(--bs-primary-shadow);
+  background-color: var(--bs-icon-4);
+}
+
+.icon-set {
+  width: 60px;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 20px;
+}
+
+.icon-set .icon-logo {
+  font-size: 30px;
+}
+
+.icon-set label {
+  font-size: clamp(10px, 1vw + 1px, 12px);
+  font-weight: 600;
 }
 
 /* Left box */
