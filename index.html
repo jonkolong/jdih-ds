@@ -195,13 +195,13 @@
                 </select>
               </div>
             </div>
-            <div class="row g-5 mb-5">
+            <div class="row g-5">
               <div class="col-xxl-6 mt-2">
                 <label class="fs-6 form-label">Tahun</label>
                 <input type="number" v-model="tahun" class="form-control" placeholder="Masukkan Tahun" @input="validateYear" />
                 <small v-if="yearError" class="text-danger">{{ yearError }}</small>
               </div>
-              <div class="col-xxl-6 mt-2">
+              <div class="col-xxl-6 mt-2 mb-4">
                 <label class="fs-6 form-label">Tag</label>
                 <select v-model="tag" class="form-select">
                   <option value="">-- Pilih --</option>
